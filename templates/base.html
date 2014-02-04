@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% block head %}
+    <title>Edward Knowles{% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta charset="utf-8">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='ico/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" class="css">
+    <script type="text/javascript" src="//use.typekit.net/rxn8uxe.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    {% endblock %}
+</head>
+
+<body>
+    <!--content-->
+    {% block content %}
+    {% endblock %}
+    <!--end content-->
+
+    <!--footer-->
+    {% block footer %}
+
+<div id="footer" class="parentContainer">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <h4>That's all I have to say, about that</h4>
+                <p>mail@eknowles.com</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    {% endblock %}
+    <!--end footer-->
+    {% block js_footer %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    {% endblock %}
+</body>
+
+</html>
