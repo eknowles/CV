@@ -53,12 +53,12 @@ h4 {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 .date {
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 0.8em;
+    /*font-size: 0.8em;*/
 }
 .location {
-    font-weight: 500;
+    /*font-weight: 500;*/
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 .section-title {
