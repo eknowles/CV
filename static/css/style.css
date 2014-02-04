@@ -36,7 +36,7 @@
     background-color: darkslategrey;
 }
 #short-bio h4 {
-    color: gray;
+    color: #969696;
 }
 /*.navbar { border: none; }*/
 h4 {
@@ -45,7 +45,7 @@ h4 {
 }
 .body {
     font-family:"museo-slab", sans-serif;
-    color: gray;
+    color: #969696;
 }
 .position {
     /*font-weight: 500;*/
@@ -53,11 +53,12 @@ h4 {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 .date {
-    font-weight: 500;
+    font-weight: 700;
     font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 0.8em;
 }
 .location {
-    /*font-weight: 500;*/
+    font-weight: 500;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 .section-title {
@@ -66,7 +67,7 @@ h4 {
     font-weight: 700;
 }
 .btn-default {
-    color: #CCC;
+    color: #8F8F8F;
     background-color: transparent;
     border-color: #888;
     font-family: "museo-slab",serif;
