@@ -141,8 +141,7 @@
 
 <div id="events" class="parentContainer">
     <div class="container">
-{% for key, event in events.iteritems() %}
-
+        {% for key, event in events.iteritems() %}
         {% if loop.index0 %2==0 %}
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-2">
@@ -157,8 +156,7 @@
         {% if loop.index %2==0 %}
         </div>
         {% endif %}
-{% endfor %}
-
+        {% endfor %}
     </div>
 </div>
 
