@@ -8,11 +8,11 @@ app.config.update(
 	DEBUG=True,
 )
 
-
 events = {}
 # settings
 
 ics_url = "https://www.google.com/calendar/ical/88kil28s7t686h1p5aoem6ui24%40group.calendar.google.com/public/basic.ics"
+
 
 class Event(object):
 	name = ''
@@ -22,9 +22,10 @@ class Event(object):
 	description = ''
 	clean_dates = ''
 
+
 def tidytime(start, end):
 	output = ''
-	if start.day+1 == end.day:
+	if start.day + 1 == end.day:
 		sameday = True
 	else:
 		sameday = False
@@ -57,6 +58,7 @@ def page_not_found(e):
 def index():
 	return render_template('index.html', events=events)
 
+
 @app.route("/update")
 def reset_events():
 	global events
@@ -75,9 +77,8 @@ def reset_events():
 	k = 0
 	for event in event_list:
 		events[k] = event
-		k+=1
+		k += 1
 	print events
-
 
 	return render_template('reset.html', events=events)
 
