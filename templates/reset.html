@@ -1,0 +1,8 @@
+<h1>Events</h1>
+<ul>
+{% for key, event in events.iteritems() %}
+    <li class="{{ loop.cycle('odd', 'even') }}">{{ event.name }}</li>
+{% else %}
+    <li><em>no events found</em></li>
+{% endfor %}
+</ul>

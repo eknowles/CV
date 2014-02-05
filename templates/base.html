@@ -15,6 +15,25 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" class="css">
     <script type="text/javascript" src="//use.typekit.net/rxn8uxe.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.intro-section').css({
+                height: $(window).height() + "px",
+        });
+        $('#intro').css({
+                height: $(window).height() + "px",
+        });
+        $(window).on('resize', function() {
+        $('.intro-section').css({
+                height: $(window).height() + "px",
+        });
+        $('#intro').css({
+                height: $(window).height() + "px",
+        });
+        });
+    });
+    </script>
     {% endblock %}
 </head>
 

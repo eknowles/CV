@@ -29,8 +29,8 @@
                 <p class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, distinctio dolorum est eum illo impedit incidunt itaque iure minima necessitatibus officia pariatur quae totam veritatis voluptatibus! Debitis in necessitatibus praesentium.</p>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-2">
-              <p><a class="btn btn-default" href="#">Download PDF</a></p>
-              <p><a class="btn btn-default" href="#">Print Resume</a></p>
+              <p><a class="btn btn-default" href="#"><span class="glyphicon glyphicon-cloud-download"></span> Download PDF</a></p>
+              <p><a class="btn btn-default" href="#"><span class="glyphicon glyphicon-print"></span> Print Resume</a></p>
             </div>
         </div>
 
@@ -137,4 +137,29 @@
 
     </div>
 </div>
+
+
+<div id="events" class="parentContainer">
+    <div class="container">
+{% for key, event in events.iteritems() %}
+
+        {% if loop.index0 %2==0 %}
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-2">
+                <h4 class="section-title">{% if loop.first %}Attending{% endif %}</h4>
+            </div>
+        {% endif %}
+            <div class="col-xs-12 col-sm-6 col-md-5">
+                <h4>{{ event.name }}</h4>
+                <p class="position">{{ event.clean_dates }}</p>
+                <p class="body">{{ event.location }}</p>
+            </div>
+        {% if loop.index %2==0 %}
+        </div>
+        {% endif %}
+{% endfor %}
+
+    </div>
+</div>
+
 {% endblock %}

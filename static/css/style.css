@@ -8,6 +8,7 @@
     width: 100%;
     padding: 80px 0 140px;
     overflow: hidden;
+    border-top: 10px solid rgba(0,0,0,0.05);
 }
 #footer {
     text-align: center;
@@ -24,12 +25,14 @@
     -o-background-size: cover;
     background-size: cover;
     background-image: url('../img/header.jpg');
+    background-position: center center;
 }
 .intro-section {
     background-color: rgba(0,0,0,0.6);
     width: 100%;
     padding: 140px 0 140px;
     overflow: hidden;
+    position: absolute;
 }
 #short-bio {
     color: white;
@@ -37,6 +40,10 @@
 }
 #short-bio h4 {
     color: #969696;
+}
+#events {
+    color: white;
+    background-color: #2C3E50;
 }
 /*.navbar { border: none; }*/
 h4 {
@@ -46,6 +53,7 @@ h4 {
 .body {
     font-family:"museo-slab", sans-serif;
     color: #969696;
+    margin-bottom: 1.5em;
 }
 .position {
     /*font-weight: 500;*/
