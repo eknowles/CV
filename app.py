@@ -39,8 +39,10 @@ def tidytime(start, end):
 		sameyear = False
 	if sameyear and samemonth and sameday:
 		output = start.strftime("%A, %d %B %Y")
-	if sameyear and samemonth and not sameday:
+	elif sameyear and samemonth and not sameday:
 		output = start.strftime("%A, %d-") + end.strftime("%d %B %Y")
+	elif sameyear and not samemonth:
+		output = start.strftime("%d %B - ") + end.strftime("%d %B %Y")
 	return output
 
 # controllers
@@ -56,6 +58,7 @@ def page_not_found(e):
 
 @app.route("/")
 def index():
+	reset_events()
 	return render_template('index.html', events=events)
 
 
@@ -78,7 +81,7 @@ def reset_events():
 	for event in event_list:
 		events[k] = event
 		k += 1
-	print events
+	# print events
 
 	return render_template('reset.html', events=events)
 

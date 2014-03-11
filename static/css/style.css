@@ -1,20 +1,28 @@
 .navbar {
     margin-bottom: 0px;
 }
+
 .jumbotron {
     background-color: transparent;
 }
+
 .parentContainer {
     width: 100%;
     padding: 80px 0 140px;
     overflow: hidden;
-    border-top: 10px solid rgba(0,0,0,0.05);
+    border-top: 10px solid rgba(0, 0, 0, 0.05);
 }
+
 #footer {
     text-align: center;
-    color: white;
-    background-color: #a1a1a1;
+    /*color: white;*/
+    /*background-color: #a1a1a1;*/
 }
+
+.no-top-margins h4 {
+    margin-top: 0 !important;
+}
+
 #intro {
     /*margin-top: -50px;*/
     text-align: center;
@@ -27,61 +35,88 @@
     background-image: url('../img/header.jpg');
     background-position: center center;
 }
+
 .intro-section {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     padding: 140px 0 140px;
     overflow: hidden;
     position: absolute;
 }
-#short-bio {
-    color: white;
-    background-color: darkslategrey;
-}
-#short-bio h4 {
+
+.skill-head {
     color: #969696;
+    text-transform: none !important;
 }
-#events {
+
+.progress {
+    background-color: #E7E7E7;
+}
+
+.progress-bar {
+    background-color: #2C3E50;
+    font-family: "museo-slab", sans-serif;
+    text-align: left;
+    padding-left: 1em;
+    font-size: 14px;
+}
+
+/*#short-bio {*/
+/*color: white;*/
+/*background-color: darkslategrey;*/
+/*}*/
+/*#short-bio h4 {*/
+/*color: #969696;*/
+/*}*/
+.darkblue {
     color: white;
     background-color: #2C3E50;
 }
+
 /*.navbar { border: none; }*/
 h4 {
-    font-family:"museo-slab", sans-serif;
+    font-family: "museo-slab", sans-serif;
     text-transform: uppercase;
 }
-.body {
-    font-family:"museo-slab", sans-serif;
+
+.body, li {
+    font-family: "museo-slab", sans-serif;
     color: #969696;
     margin-bottom: 1.5em;
 }
+
 .position {
     /*font-weight: 500;*/
     font-style: italic;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
+
 .date {
     /*font-weight: 700;*/
     font-family: Georgia, Times, "Times New Roman", serif;
     /*font-size: 0.8em;*/
 }
+
 .location {
     /*font-weight: 500;*/
     font-family: Georgia, Times, "Times New Roman", serif;
 }
+
 .section-title {
-    font-family: "museo-slab",serif;
+    font-family: "museo-slab", serif;
     font-style: normal;
     font-weight: 700;
 }
+
 .btn-default {
     color: #8F8F8F;
     background-color: transparent;
     border-color: #888;
-    font-family: "museo-slab",serif;
+    font-family: "museo-slab", serif;
     font-style: normal;
     font-weight: 700;
 }
+
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
     color: #333;
     background-color: #EBEBEB;
