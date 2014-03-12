@@ -1,18 +1,13 @@
-{% extends "base.html" %}
-{% block title %} - Resume{% endblock %}
-{% block content %}
-{% if not session.logged_in %}
-<!--<p>You are not logged in.</p>-->
-{% else %}
-<!--<p>You are logged in.</p>-->
-{% endif %}
+{% extends "base.html" %}{% block title %} - Resume{% endblock %}{% block content %}{% if not session.logged_in %}<!--<p>You are not logged in.</p>-->{% else %}<!--<p>You are logged in.</p>-->{% endif %}
 <div id="intro">
     <div class="intro-section">
         <div class="jumbotron">
             <div class="container">
-                <h1 class="section-title">EDWARD FRANCIS KNOWLES</h1>
+                <h1 class="section-title">EDWARD FRANCIS KNOWLES<br/><i class="fa fa-angle-double-down"></i></h1>
 
-                <p class="position">London Based Digital Developer</p>
+                <p class="position">Scroll down!<br/>
+                    <!--(Yes it's one of those)-->
+                </p>
             </div>
         </div>
     </div>
@@ -23,22 +18,15 @@
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-2">
-                <h4 class="section-title">About Me</h4>
+                <h4 class="section-title">Overview</h4>
             </div>
             <div class="col-xs-12 col-sm-9 col-md-8">
                 <h4>London based developer</h4>
 
-                <p class="body">After completing my A Levels at Ardingly College, I moved to London to study Internet
-                    Computing at Goldsmiths. I went to work on eBooks for Random House Group during the summer of my
-                    first year and quickly realising the growing market I founded Stunjelly taking Random House as our
-                    primary client.</p>
-
-                <p class="body">Our work involved building software to solve large problems in converted eBooks and a
-                    bit of web development for eCommerce clients on the side.</p>
-
-                <p class="body">Working under the Stunjelly name I developed complex conversion algorithms, scripts and
-                    guidelines for many large international clients, notably working on converting thousands of EPUB
-                    files I'm very well versed in standards and capabilities of the format.</p>
+                    <p class="body">Over 3 years experience of creating complex ebooks and enhanced picture books for various publishing clients. Winner of the 2013 Publishing Innovation Award for Best Ebook at the Digital Book World Conference for Random House UK.</p>
+                <!--<p class="body">After completing my A Levels at Ardingly College, I moved to London to study Internet Computing at Goldsmiths. I went to work on eBooks for Random House Group during the summer of my first year and quickly realising the growing market I founded Stunjelly taking Random House as our primary client.</p>-->
+                <!--<p class="body">Our work involved building software to solve large problems in converted eBooks and a bit of web development for eCommerce clients on the side.</p>-->
+                <!--<p class="body">Working under the Stunjelly name I developed complex conversion algorithms, scripts and guidelines for many large international clients, notably working on converting thousands of EPUB files I'm very well versed in standards and capabilities of the format.</p>-->
 
                 <p class="body"></p>
             </div>
@@ -65,9 +53,7 @@
                 <p class="position">Stunjelly eBook Services</p>
 
                 <p class="body">
-                    Stunjelly is a Digital publishing consultancy that specializes in complex EPUB/MOBI, creation,
-                    corrections and conversions.
-                </p>
+                    Stunjelly is a Digital publishing consultancy that specializes in complex EPUB/MOBI, creation, corrections and conversions. </p>
 
             </div>
             <div class="col-xs-12 col-sm-3 col-md-2">
@@ -88,8 +74,7 @@
 
                 <p class="position">Random House Group</p>
 
-                <p class="body">Developed solutions for hundreds of erroneous ePub files. Reported on conversion issues,
-                    consulted and wrote style guidelines to be used by all vendors.</p>
+                <p class="body">Developed solutions for hundreds of erroneous ePub files. Reported on conversion issues, consulted and wrote style guidelines to be used by all vendors.</p>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-2">
                 <p class="date">June 2010 ~ Sept. 2010</p>
@@ -108,10 +93,7 @@
                 <p class="position">CKD Ltd.</p>
 
                 <p class="body">
-                    Created photorealistic images and video walkthroughs of proposed buildings using CAD. Managed IT and
-                    render farm network, ordered PC components and built top of the line workstations. Setup OS X
-                    Servers, mail services, FTP/AFP servers and networking for office website and remote traffic.
-                </p>
+                    Created photorealistic images and video walkthroughs of proposed buildings using CAD. Managed IT and render farm network, ordered PC components and built top of the line workstations. Setup OS X Servers, mail services, FTP/AFP servers and networking for office website and remote traffic. </p>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-2">
                 <p class="date">June 2010 ~ Sept. 2010</p>
@@ -131,16 +113,9 @@
 
                 <p class="position">Best Ebook in Children&rsquo;s Category</p>
 
-                <p class="body">The Dinosaur That Pooped Christmas written by Tom Fletcher and Dougie Poynter from McFly
-                    and illustrated by Garry Parsons was published last October. It spent 3 weeks at No.1 on the TCM
-                    Children's Picture Book Chart and sold over 50,000 copies. The Bookseller called it 'A work of
-                    genius'.</p>
+                <p class="body">The Dinosaur That Pooped Christmas written by Tom Fletcher and Dougie Poynter from McFly and illustrated by Garry Parsons was published last October. It spent 3 weeks at No.1 on the TCM Children's Picture Book Chart and sold over 50,000 copies. The Bookseller called it 'A work of genius'.</p>
 
-                <p class="body">This innovative enhanced eBook was created by the RHCP editorial and design teams
-                    working in conjunction with the RHG Digital team and digital content company, Stunjelly. The aim was
-                    to create a fun and engaging reading experience for young readers that brought the book to life. It
-                    contains a full reading of the book by Tom and Dougie along with sound effects and animation and has
-                    sold over 2000 copies.</p>
+                <p class="body">This innovative enhanced eBook was created by the RHCP editorial and design teams working in conjunction with the RHG Digital team and digital content company, Stunjelly. The aim was to create a fun and engaging reading experience for young readers that brought the book to life. It contains a full reading of the book by Tom and Dougie along with sound effects and animation and has sold over 2000 copies.</p>
 
             </div>
             <div class="col-xs-12 col-sm-3 col-md-2">
@@ -149,8 +124,8 @@
                 <p class="location">New York, NY</p>
 
                 <p>
-                    <a href="http://www.randomhouse.co.uk/news/2013/01/the-dinosaur-that-pooped-christmas-wins-publishing-innovation-award"
-                       target="_blank" class="btn btn-default btn-sm">Visit Article</a></p>
+                    <a href="http://www.randomhouse.co.uk/news/2013/01/the-dinosaur-that-pooped-christmas-wins-publishing-innovation-award" target="_blank" class="btn btn-default btn-sm">Visit Article</a>
+                </p>
             </div>
         </div>
     </div>
@@ -187,9 +162,7 @@
                 <p class="position">Ardingly College</p>
 
                 <p class="body">
-                    A Levels - Business Studies, Physical Education, Design and Technology.
-                    GCSEs - Maths, English, Science, Spanish, History, Physical Education, Design and Technology.
-                </p>
+                    A Levels - Business Studies, Physical Education, Design and Technology. GCSEs - Maths, English, Science, Spanish, History, Physical Education, Design and Technology. </p>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-2">
                 <p class="date">2002 ~ 2007</p>
@@ -214,8 +187,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">HTML5</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 95%;">9.5
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">9.5
                             </div>
                         </div>
                     </div>
@@ -226,8 +198,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">CSS3</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 95%;">9.5
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">9.5
                             </div>
                         </div>
                     </div>
@@ -240,8 +211,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">Javascript</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 80%;">8
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">8
                             </div>
                         </div>
                     </div>
@@ -252,8 +222,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">Python</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 70%;">7
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">7
                             </div>
                         </div>
                     </div>
@@ -266,8 +235,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">PHP</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 40%;">4
+                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">4
                             </div>
                         </div>
                     </div>
@@ -278,8 +246,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">Perl</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 40%;">4
+                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">4
                             </div>
                         </div>
                     </div>
@@ -292,8 +259,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">AS2/3</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 20%;">2
+                            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">2
                             </div>
                         </div>
                     </div>
@@ -304,8 +270,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">ASP</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 10%;">1
+                            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">1
                             </div>
                         </div>
                     </div>
@@ -318,8 +283,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">C++</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 10%;">1
+                            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">1
                             </div>
                         </div>
                     </div>
@@ -340,8 +304,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">EPUB</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 95%;">9.5
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">9.5
                             </div>
                         </div>
                     </div>
@@ -353,8 +316,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">jQuery</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 80%;">8
+                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">8
                             </div>
                         </div>
                     </div>
@@ -367,8 +329,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">Bootstrap</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 70%;">7
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">7
                             </div>
                         </div>
                     </div>
@@ -379,8 +340,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">Wordpress</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 60%;">6
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">6
                             </div>
                         </div>
                     </div>
@@ -393,8 +353,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">Qt</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 50%;">5
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">5
                             </div>
                         </div>
                     </div>
@@ -405,8 +364,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">Django</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 30%;">3
+                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">3
                             </div>
                         </div>
                     </div>
@@ -419,8 +377,7 @@
                     <div class="col-sm-3 col-xs-12"><p class="body">Node.js</p></div>
                     <div class="col-sm-9 col-xs-12">
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 30%;">3
+                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">3
                             </div>
                         </div>
                     </div>
@@ -436,9 +393,7 @@
     <div class="col-md-4 col-sm-12 col-xs-12">
         <div class="row">
             <div class="col-md-12">
-                <p class="body">PyCharm, WebStorm, Sublime Text, Photoshop, Dreamweaver, InDesign, Illustrator,
-                    Fireworks, GIMP, EpubCheck, Sigil, Microsoft-Libre-Open Office, MySQL Workbench, Git,
-                    ImageMagick.</p>
+                <p class="body">PyCharm, WebStorm, Sublime Text, Photoshop, Dreamweaver, InDesign, Illustrator, Fireworks, GIMP, EpubCheck, Sigil, Microsoft-Libre-Open Office, MySQL Workbench, Git, ImageMagick.</p>
             </div>
         </div>
     </div>
@@ -446,8 +401,7 @@
     <div class="col-md-4 col-sm-12 col-xs-12">
         <div class="row">
             <div class="col-md-12">
-                <p class="body">XMPP, OpenID, IRC, Qt4, Jade, MySQL, SQLite, Redis, SocketIO, Heroku, GIMP, OpenGL,
-                    Restful API's (inc. Facebook/Twitter), Google API's (Maps, Analytics, Calendar).</p>
+                <p class="body">XMPP, OpenID, IRC, Qt4, Jade, MySQL, SQLite, Redis, SocketIO, Heroku, GIMP, OpenGL, Restful API's (inc. Facebook/Twitter), Google API's (Maps, Analytics, Calendar).</p>
             </div>
         </div>
     </div>
@@ -455,15 +409,73 @@
 </div>
 </div>
 
-<div id="recommendations" class="parentContainer darkblue">
+
+<div id="software" class="parentContainer darkblue">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-2 col-md-2">
-                <h4 class="section-title">Opportunities</h4>
+                <h4 class="section-title">Software</h4>
             </div>
 
-            <div class="col-xs-12 col-sm-10 col-md-10">
-                <h4>PENIS</h4>
+            <div class="col-xs-12 col-sm-7 col-md-8">
+                <h4>Stunjelly EPUB3 Builder</h4>
+
+                <p class="body">An internal program used to convert PDF&rsquo;s to HTML5/EPUB3 for iPad, Kindle, Sony Reader and Kobo</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-3 col-md-2">
+                <p class="date">Total Conversions</p>
+                <h4>100+</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <h4 class="section-title"></h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-8 col-md-8">
+                <h4>I Shall Share Midnight</h4>
+                <p class="body">A Social marketing application for Facebook where users could add their profile images to a special edition with a promotional cover for a newly released I Shall Wear Midnight by Terry Pratchett.</p>
+                <!--<p class="body">Built with Flash (AS3), PHP (GD), MySQL, HTML, CSS and Facebook API.</p>-->
+            </div>
+
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <p class="date">Users</p>
+                <h4>8000+</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <h4 class="section-title"></h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-8 col-md-8">
+                <h4>Steam Tools</h4>
+                <!--<p class="position">Automate live scores and statistics for video game broadcasters</p>-->
+                <p class="body">Included a config editor, replay library, match downloads, and broadcasting tools that allowed casters to enter team names, flags and other information to be displayed via live graphics to viewers online.</p>
+                <p class="body">Within the first two weeks the program had been installed by over 4000 users and after the release of version 2, matches streamed of the internet via twitch.tv and youtube had over 1 million combined viewers.</p>
+                <!--<p class="body">Built with Python and Qt.</p>-->
+            </div>
+
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <p class="date">Downloads</p>
+                <h4>10,000+</h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <p class="date">Audience</p>
+                <h4>1m+</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <h4 class="section-title"></h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-8 col-md-8">
+                <h4>eCommerce Image Processor (ecip)</h4>
+
+                <p class="body">Developed for an online fashion retailer to automate their image conversions</p>
             </div>
         </div>
     </div>
@@ -474,36 +486,33 @@
             <div class="col-xs-12 col-sm-12 col-md-2">
                 <h4 class="section-title">Mentions</h4>
             </div>
-            <div class="col-xs-3 col-sm-2 col-md-1">
-                <h4 class="section-title"><img
-                        src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/025/249/1fb1eb4.jpg" alt=""
-                        class="img-responsive img-circle"/></h4>
-            </div>
-            <div class="col-xs-9 col-sm-4 col-md-4">
-                <h4>Dan Franklin</h4>
-
-                <p class="position">Digital Publisher at Random House Group</p>
-
-                <p class="body">&ldquo;Edward and the team at Stunjelly specialise in delivering high quality work in
-                    time, and he is a pleasure to work with.&rdquo;</p>
-            </div>
 
             <div class="col-xs-3 col-sm-2 col-md-1">
-                <h4 class="section-title"><img
-                        src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/1/000/0e8/13e/2a0c53d.jpg" alt=""
-                        class="img-responsive img-circle"/></h4>
+                <h4 class="section-title">
+                    <img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/1/000/0e8/13e/2a0c53d.jpg" alt="" class="img-responsive img-circle"/>
+                </h4>
             </div>
             <div class="col-xs-9 col-sm-4 col-md-4">
                 <h4>Ross Thompson</h4>
 
                 <p class="position">iOS & Web Software Architect / Strategist</p>
 
-                <p class="body">&ldquo;Edward is a pleasure to work with. With acute attention to detail and the ability
-                    to rapidly grasp the task at hand, he has proven himself time and time again. His continuity and
-                    willingness to deliver above and beyond the call of duty quickly paved the way for his becoming a
-                    key member on the project management board. When it comes to digital, I would thoroughly recommend
-                    Edward, and look forward to any future opportunity to work along side him once again.&rdquo;</p>
+                <p class="body">&ldquo;Edward is a pleasure to work with. With acute attention to detail and the ability to rapidly grasp the task at hand, he has proven himself time and time again. His continuity and willingness to deliver above and beyond the call of duty quickly paved the way for his becoming a key member on the project management board. When it comes to digital, I would thoroughly recommend Edward, and look forward to any future opportunity to work along side him once again.&rdquo;</p>
             </div>
+
+            <div class="col-xs-3 col-sm-2 col-md-1">
+                <h4 class="section-title">
+                    <img src="http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/2/000/025/249/1fb1eb4.jpg" alt="" class="img-responsive img-circle"/>
+                </h4>
+            </div>
+            <div class="col-xs-9 col-sm-4 col-md-4">
+                <h4>Dan Franklin</h4>
+
+                <p class="position">Digital Publisher at Random House Group</p>
+
+                <p class="body">&ldquo;Edward and the team at Stunjelly specialise in delivering high quality work in time, and he is a pleasure to work with.&rdquo;</p>
+            </div>
+
         </div>
     </div>
 </div>
@@ -511,8 +520,7 @@
 
 <div id="events" class="parentContainer darkblue">
     <div class="container">
-        {% for key, event in events.iteritems() %}
-        {% if loop.index0 %2==0 %}
+        {% for key, event in events.iteritems() %} {% if loop.index0 %2==0 %}
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-2">
                 <h4 class="section-title">{% if loop.first %}Attending{% endif %}</h4>
@@ -527,8 +535,7 @@
             </div>
             {% if loop.index %2==0 %}
         </div>
-        {% endif %}
-        {% endfor %}
+        {% endif %} {% endfor %}
     </div>
 </div>
 
