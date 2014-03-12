@@ -6,7 +6,7 @@
     </list>
     <ignored path="CV.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e52a6561-b0c6-4dbf-b791-ffc61c6b2330" time="1394587039158" ignored="false" />
+    <file path="/Dummy.txt" changelist="e52a6561-b0c6-4dbf-b791-ffc61c6b2330" time="1394587051947" ignored="false" />
     <file path="/base.html" changelist="e52a6561-b0c6-4dbf-b791-ffc61c6b2330" time="1394586973622" ignored="false" />
     <file path="/style.css" changelist="e52a6561-b0c6-4dbf-b791-ffc61c6b2330" time="1394581730106" ignored="false" />
     <file path="/index.html" changelist="e52a6561-b0c6-4dbf-b791-ffc61c6b2330" time="1394586812995" ignored="false" />
@@ -507,7 +507,11 @@
       <created>1394587041164</created>
       <updated>1394587041164</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Massive update">
+      <created>1394587053038</created>
+      <updated>1394587053038</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
